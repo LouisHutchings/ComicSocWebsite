@@ -10,7 +10,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Bangers|Bungee+Shade|Coiny|Comfortaa|Rammetto+One|Titan+One" rel="stylesheet">
     <title>Warwick Comic Book Society</title>
   </head>
   <body>
@@ -23,14 +23,24 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Contact</a>
-      <a class="nav-item nav-link" href="#">Library</a>
+      <a class="nav-item nav-link" href="library.php">Library</a>
     </div>
   </div>
 </nav>
   <div class="container-fluid" id="header">
     <h1 id="brand-name">Comic Book Society</h1>
   </div>
-  <div></div>
+  <div class="container-fluid" id="background">
+    <div class="row">
+    <div class="col-xs-12 col-md-5 offset-md-2 content-box" >
+      <h2>About</h2>
+      <p>description</p>
+    </div>
+    <div class="col-xs-12 col-md-3 offset-md-1 content-box">
+      <h2>Events</h2>
+    </div>
+  </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

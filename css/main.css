@@ -2,9 +2,29 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  height: 400px;
-  background-image: 
+  height: 300px;
+  line-height: 300px;
+  background-image: url("flat_heros_01.png");
 }
 #brand-name{
-  padding-top: 30px;
+  font-family: 'Bangers', cursive;
+  color: white;
+  line-height: 300px;
+  font-size: 8vw;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.bg-light{
+  background-color: white !important;
+}
+.content-box{
+  text-align: center;
+  height: 500px;
+  border-radius: 30px;
+  border-color: white;
+  border-style:solid;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#background{
+  background-color: purple;
 }

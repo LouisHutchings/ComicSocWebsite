@@ -30,7 +30,7 @@
   <div class="container-fluid" id="header">
     <h1 id="brand-name">Comic Book Society</h1>
   </div>
-  <div>
+  <div id="content">
     <div>
       <ul>
       <?php
@@ -41,7 +41,7 @@ ini_set("display_errors", 1);/**/
         $sql = "SELECT * FROM books;";
         $result = $db->query($sql);
         while(($row = $result->fetchArray())) {
-            echo "<li>".$row["title"]."</li>";
+            echo "<li>".$row["title"]." by ".$row["publisher"]."</li>";
           }
       ?>
     </ul>
